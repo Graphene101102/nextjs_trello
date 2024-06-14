@@ -13,6 +13,7 @@ const Board = ({ board }: BoardProps) => {
         <Column key={column.id} column={column} cards={column.cards} />
       ))}
     </div>
+    
   );
 };
 
